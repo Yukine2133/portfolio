@@ -1,4 +1,4 @@
-import { techs } from "./techs";
+import { techs } from "../utils/Arrays";
 
 const Experience = () => {
   return (

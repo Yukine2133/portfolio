@@ -9,6 +9,11 @@ import firebase from "../images/tech-logos/firebase.png";
 import git from "../images/tech-logos/git.png";
 import vite from "../images/tech-logos/vite.svg";
 import framerMotion from "../images/tech-logos/framer-motion.svg";
+import githubSearchUsers from "../images/githubSearchUser.png";
+import eGuru from "../images/eGuru.png";
+import movieSearch from "../images/movieSearch.png";
+
+//Experience
 export const techs = [
   {
     id: 1,
@@ -75,5 +80,51 @@ export const techs = [
     src: framerMotion,
     title: "Framer-motion",
     style: "shadow-fuchsia-500",
+  },
+];
+
+// Header
+export const links = [
+  {
+    id: 1,
+    link: "Home",
+  },
+  {
+    id: 2,
+    link: "About",
+  },
+  {
+    id: 3,
+    link: "Portfolio",
+  },
+  {
+    id: 4,
+    link: "Experience",
+  },
+];
+
+//Portfolio
+export const portfolios = [
+  {
+    id: 1,
+    src: eGuru,
+    demoUrl: "https://e-guru213.netlify.app/",
+    codeUrl: "https://github.com/Yukine2133/landing-page",
+  },
+  {
+    id: 2,
+    src: githubSearchUsers,
+    demoUrl: "https://github-search-users213.netlify.app/",
+    codeUrl: "https://github.com/Yukine2133/github-search-users",
+  },
+  {
+    id: 3,
+    src: movieSearch,
+    demoUrl: "https://movie-search-omdbapi213.netlify.app/",
+    codeUrl: "https://github.com/Yukine2133/movie-search-omdbApi",
+  },
+  {
+    id: 4,
+    src: githubSearchUsers,
   },
 ];

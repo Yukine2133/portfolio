@@ -1,33 +1,6 @@
-import githubSearchUsers from "../images/githubSearchUser.png";
-import eGuru from "../images/eGuru.png";
-import movieSearch from "../images/movieSearch.png";
+import { portfolios } from "../utils/Arrays";
 
 const Portfolio = () => {
-  const portfolios = [
-    {
-      id: 1,
-      src: eGuru,
-      demoUrl: "https://e-guru213.netlify.app/",
-      codeUrl: "https://github.com/Yukine2133/landing-page",
-    },
-    {
-      id: 2,
-      src: githubSearchUsers,
-      demoUrl: "https://github-search-users213.netlify.app/",
-      codeUrl: "https://github.com/Yukine2133/github-search-users",
-    },
-    {
-      id: 3,
-      src: movieSearch,
-      demoUrl: "https://movie-search-omdbapi213.netlify.app/",
-      codeUrl: "https://github.com/Yukine2133/movie-search-omdbApi",
-    },
-    {
-      id: 4,
-      src: githubSearchUsers,
-    },
-  ];
-
   return (
     <div
       id="Portfolio"

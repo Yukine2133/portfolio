@@ -1,26 +1,10 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { links } from "../utils/Arrays";
 const Header = () => {
   const [menu, setMenu] = useState(false);
-  const links = [
-    {
-      id: 1,
-      link: "Home",
-    },
-    {
-      id: 2,
-      link: "About",
-    },
-    {
-      id: 3,
-      link: "Portfolio",
-    },
-    {
-      id: 4,
-      link: "Experience",
-    },
-  ];
+
   return (
     <header className="flex justify-between items-center w-full h-20 bg-black px-4 text-white fixed ">
       <div>
