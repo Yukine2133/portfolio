@@ -123,8 +123,4 @@ export const portfolios = [
     demoUrl: "https://movie-search-omdbapi213.netlify.app/",
     codeUrl: "https://github.com/Yukine2133/movie-search-omdbApi",
   },
-  {
-    id: 4,
-    src: githubSearchUsers,
-  },
 ];
